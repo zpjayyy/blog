@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+</head>
+<body>
+<h1>login</h1>
+<form action="/login" method="post">
+    <ul>
+        <li>
+            <label for="title">title: </label>
+            <input type="text" id="title" name="title" max="10" required>
+        </li>
+        <li>
+            <label for="content">content: </label>
+            <textarea id="content" name="content"></textarea>
+        </li>
+        <li class="button">
+            <button type="submit">Login</button>
+        </li>
+    </ul>
+</form>
+</body>
+</html>
